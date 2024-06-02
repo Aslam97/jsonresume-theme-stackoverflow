@@ -148,6 +148,7 @@ p {
 a {
   color: rgb(27, 117, 208);
   text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
