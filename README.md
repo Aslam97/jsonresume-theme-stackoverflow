@@ -145,7 +145,6 @@ Available skills levels are:
       "name": "Project",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
       "highlights": ["Won award at AIHacks 2016"],
       "url": "https://project.com",
       "location": {
