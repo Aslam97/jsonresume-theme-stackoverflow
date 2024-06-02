@@ -63,6 +63,19 @@
             </span>
           {{/location}}
 
+          {{#if url}}
+            <span class="website">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="{{url}}">
+                {{#if urlDisplay}}
+                  {{urlDisplay}}
+                {{else}}
+                  {{url}}
+                {{/if}}
+              </a>
+            </span>
+          {{/if}}
+
           {{#if courses.length}}
             <ul class="courses">
               {{#each courses as |course|}}
