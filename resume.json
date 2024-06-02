@@ -89,8 +89,8 @@
       "company": "PT Meteor Inovasi Digital",
       "position": "Full Stack Developer",
       "website": "https://meteor.id",
-      "startDate": "2022-01-01",
-      "endDate": "2023-01-01",
+      "startDate": "2022-09-01",
+      "endDate": "2023-12-01",
       "summary": "Developed a portal system for client needs. Conducted technical analysis to assess costs and client requirements, managed two mid-level developers to complete the project.",
       "highlights": [
         "Engaged in technical discussions with the Tech Lead regarding the framework selected for application development.",
@@ -106,8 +106,8 @@
       "company": "KLSE Journal",
       "position": "Full Stack Developer",
       "website": "https://klsejournal.com",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
+      "startDate": "2021-04-01",
+      "endDate": "2022-08-01",
       "summary": "Developed systems for traders to effectively monitor and analyze their trading activities, Kitchen management and software-as-a-service (SaaS) applications.",
       "highlights": [
         "Direct interacted with users to understand their business needs and collaborate on development initiatives.",
@@ -121,8 +121,8 @@
     {
       "company": "Govo",
       "position": "Full Stack Developer",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
+      "startDate": "2020-01-01",
+      "endDate": "2021-03-01",
       "summary": "Oversaw integration development with third-party vendors, established GitHub repositories and facilitated team connectivity, and collaborated with developers to optimize business workflow enhancements.",
       "highlights": [
         "Responsible for managing the integration development process with third-party vendors.",
@@ -137,8 +137,8 @@
     {
       "company": "Omit X PT IRM",
       "position": "Backend Developer",
-      "startDate": "2017-01-01",
-      "endDate": "2019-01-01",
+      "startDate": "2017-02-01",
+      "endDate": "2019-12-01",
       "summary": "Addressed and resolved application bugs, engaged in out-of-province travel for direct user requirement discussions, and played a key role in improving a hotel application to meet user expectations on schedule.",
       "highlights": [
         "Resolved bugs in existing projects to ensure the application meets user needs and expectations.",
@@ -260,7 +260,7 @@
   "publications": [
     {
       "name": "Deploy Next.js with PM2",
-      "publisher": "Medium",
+      "publisher": "Personal Blog",
       "releaseDate": "2024-04-22",
       "website": "https://aslamh.com/articles/deploy-react-with-pm2",
       "summary": "A guide on how to deploy a Next.js application with PM2.",
@@ -268,7 +268,7 @@
     },
     {
       "name": "Laravel Mix Code Splitting",
-      "publisher": "Medium",
+      "publisher": "Personal Blog",
       "releaseDate": "2020-03-27",
       "website": "https://aslamh.com/articles/laravel-mix-code-splitting",
       "summary": "A guide on how to code split with Laravel Mix.",
