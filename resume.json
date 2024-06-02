@@ -1,0 +1,302 @@
+{
+  "basics": {
+    "name": "Aslam Hafizuddin",
+    "label": "Full Stack Developer",
+    "image": "",
+    "email": "iupin5212@gmail.com",
+    "phone": "+6281901560689",
+    "website": "https://aslamh.com",
+    "summary": "I'm a full stack developer based in Tangerang, Indonesia. with 7 years development experience and I'm passionate about building delightful experiences for the web and mobile. I'm also an amateur trekker, and I love exploring the mountains.",
+    "location": {
+      "city": "Tangerang",
+      "countryCode": "Indonesia"
+    },
+    "profiles": [
+      {
+        "network": "x Twitter",
+        "username": "Asuramus",
+        "url": "https://x.com/asuramus__"
+      },
+      {
+        "network": "Github",
+        "username": "Aslam97",
+        "url": "https://github.com/Aslam97"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "aslam-hafizuddin",
+        "url": "https://www.linkedin.com/in/aslam-hafizuddin"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "aslamh",
+        "url": "https://stackoverflow.com/users/8012110/aslam-h"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Advanced",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Vue",
+        "NuxtJS",
+        "NextJS",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Advanced",
+      "keywords": [
+        "PHP",
+        "Python",
+        "Golang",
+        "NodeJS",
+        "Laravel",
+        "Frappe Framework",
+        "n8n"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "level": "Intermediate",
+      "keywords": ["React Native", "Expo"]
+    }
+  ],
+  "work": [
+    {
+      "company": "Petra Kencana Sdn Bhd",
+      "position": "Tech Lead",
+      "website": "https://petrakencana.com",
+      "startDate": "2024-02-01",
+      "endDate": "2024-07-01",
+      "summary": "Developed Livestock management system. focusing on farm-to-farm operations and enhancing the user experience for farmer, worker, veterinarian and consumers.",
+      "highlights": [
+        "Accountable for overseeing the daily progress and reporting of developers under my supervision.",
+        "Responsible for the design and user experience aspects of the developed applications.",
+        "Engaged in the enhancement and refinement of pre-existing business logic to optimize operational efficiency and efficacy."
+      ],
+      "location": {
+        "city": "Petaling Jaya"
+      },
+      "keywords": ["Golang", "NodeJS", "NextJS", "Expo"]
+    },
+    {
+      "company": "PT Meteor Inovasi Digital",
+      "position": "Full Stack Developer",
+      "website": "https://meteor.id",
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Developed a portal system for client needs. Conducted technical analysis to assess costs and client requirements, managed two mid-level developers to complete the project.",
+      "highlights": [
+        "Engaged in technical discussions with the Tech Lead regarding the framework selected for application development.",
+        "Facilitated direct communication with Project Managers to thoroughly understand and address user needs and requirements.",
+        "Provided guidance and mentorship to developers to ensure comprehensive understanding and adoption of the new framework proposed for the upcoming project."
+      ],
+      "location": {
+        "city": "Kabupaten Tangerang"
+      },
+      "keywords": ["Laravel", "n8n", "Frappe Framework"]
+    },
+    {
+      "company": "KLSE Journal",
+      "position": "Full Stack Developer",
+      "website": "https://klsejournal.com",
+      "startDate": "2021-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Developed systems for traders to effectively monitor and analyze their trading activities, Kitchen management and software-as-a-service (SaaS) applications.",
+      "highlights": [
+        "Direct interacted with users to understand their business needs and collaborate on development initiatives.",
+        "Responsible for evaluating and choosing appropriate technologies to be utilized for project development."
+      ],
+      "location": {
+        "city": "Kuala Lumpur"
+      },
+      "keywords": ["VueJs", "NodeJS", "Supabase", "NextJS", "Laravel"]
+    },
+    {
+      "company": "Govo",
+      "position": "Full Stack Developer",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Oversaw integration development with third-party vendors, established GitHub repositories and facilitated team connectivity, and collaborated with developers to optimize business workflow enhancements.",
+      "highlights": [
+        "Responsible for managing the integration development process with third-party vendors.",
+        "Created github and connected group members to the repository to ensure a smooth workflow.",
+        "Collaborated with other developers to identify the most effective and productive methods for enhancing focus on business workflows."
+      ],
+      "location": {
+        "city": "Bandung"
+      },
+      "keywords": ["Laravel", "Vue"]
+    },
+    {
+      "company": "Omit X PT IRM",
+      "position": "Backend Developer",
+      "startDate": "2017-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Addressed and resolved application bugs, engaged in out-of-province travel for direct user requirement discussions, and played a key role in improving a hotel application to meet user expectations on schedule.",
+      "highlights": [
+        "Resolved bugs in existing projects to ensure the application meets user needs and expectations.",
+        "Traveled out of province to interact directly with users and discuss requirements for the project to be developed.",
+        "Assisted in enhancing an existing hotel application, ensuring user requirements were met within the specified timeline."
+      ],
+      "location": {
+        "city": "Bandung"
+      },
+      "keywords": ["Drupal", "JavaScript", "Internal Framework"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Alfamind",
+      "summary": "Alfamind is an e-commerce platform that provides a wide range of products, from groceries to electronics.",
+      "url": "https://alfamind.id",
+      "urlDisplay": "alfamind.id"
+    },
+    {
+      "name": "Dapur Kita",
+      "summary": "Dapur Kita is a recipe-sharing platform that allows users to discover and share their favorite recipes.",
+      "url": "https://dapurkita.online",
+      "urlDisplay": "dapurkita.online"
+    },
+    {
+      "name": "E-Livestock",
+      "summary": "E-Livestock is a platform that farmers can use to manage their livestock and connect with buyers. It also provides real-time data on the health and location of the animals.",
+      "url": "https://e-livestock.com",
+      "urlDisplay": "e-livestock.com"
+    },
+    {
+      "name": "GMap Marker",
+      "summary": "GMap Marker is a code snippet that allows you to add a customer marker to a Google Map.",
+      "url": "https://github.com/Aslam97/google-map-custom-marker",
+      "urlDisplay": "github.com"
+    },
+    {
+      "name": "LaraVue Boilerplate",
+      "summary": "LaraVue is a Laravel and Vue.js starter template that allows you to quickly build web applications.",
+      "url": "https://github.com/Aslam97/laravel-vue-boilerplate",
+      "urlDisplay": "github.com"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Github",
+      "startDate": "2022-11-01",
+      "endDate": "2023-01-01",
+      "position": "Lunarphp",
+      "website": "https://github.com/lunarphp/lunar",
+      "summary": "An open-source package that brings the power of modern headless e-commerce functionality to Laravel."
+    }
+  ],
+  "education": [
+    {
+      "institution": "UNIKOM",
+      "url": "https://unikom.ac.id",
+      "urlDisplay": "unikom.ac.id",
+      "area": "Teknik Informatika",
+      "studyType": "Bachelor",
+      "startDate": "2016-01-01",
+      "endDate": "2017-01-01",
+      "courses": [
+        "Algorithms",
+        "Data Structures",
+        "Web Development",
+        "Databases"
+      ],
+      "location": {
+        "city": "Bandung",
+        "region": "West Java",
+        "countryCode": "ID"
+      },
+      "summary": "I am currently on academic leave and have not continued my studies. My educational journey reached its peak at the end of semester 3, and has not continued since then."
+    },
+    {
+      "institution": "SMK YSB SURYALAYA",
+      "url": "hhttps://smkysbsuryalaya.sch.id",
+      "urlDisplay": "smkysbsuryalaya.sch.id",
+      "area": "TKJ",
+      "studyType": "High School",
+      "startDate": "2021-01-01",
+      "endDate": "2015-01-01",
+      "courses": ["Matematics", "Networking", "English"],
+      "location": {
+        "city": "Tasikmalaya",
+        "region": "West Java",
+        "countryCode": "ID"
+      },
+      "summary": "I completed my education in Computer and Network Engineering (TKJ) at a Vocational High School, gaining practical skills in hardware, software, and networking. The program prepared me for a career in information technology or further studies in the field"
+    },
+    {
+      "institution": "Fajar Dunia",
+      "url": "https://www.instagram.com/menarafajar/?hl=en",
+      "urlDisplay": "instagram.com",
+      "studyType": "Junior High School",
+      "startDate": "2009-01-01",
+      "endDate": "2012-01-01",
+      "courses": ["Matematics", "English", "Arabic", "Japanese"],
+      "location": {
+        "city": "Bogor",
+        "region": "West Java",
+        "countryCode": "ID"
+      }
+    },
+    {
+      "institution": "SDN 1 Jatiasih",
+      "studyType": "Elementary School",
+      "startDate": "2003-01-01",
+      "endDate": "2009-01-01",
+      "location": {
+        "city": "Bekasi",
+        "region": "West Java",
+        "countryCode": "ID"
+      }
+    }
+  ],
+  "publications": [
+    {
+      "name": "Deploy Next.js with PM2",
+      "publisher": "Medium",
+      "releaseDate": "2024-04-22",
+      "website": "https://aslamh.com/articles/deploy-react-with-pm2",
+      "summary": "A guide on how to deploy a Next.js application with PM2.",
+      "keywords": ["NextJS", "PM2", "Deployment"]
+    },
+    {
+      "name": "Laravel Mix Code Splitting",
+      "publisher": "Medium",
+      "releaseDate": "2020-03-27",
+      "website": "https://aslamh.com/articles/laravel-mix-code-splitting",
+      "summary": "A guide on how to code split with Laravel Mix.",
+      "keywords": ["Laravel", "Code Splitting", "Laravel Mix"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Indonesian",
+      "fluency": "Native speaker",
+      "fluencyDisplay": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced",
+      "fluencyDisplay": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Trekking",
+      "summary": "I love trekking and exploring the mountains. I've been to several mountains in Indonesia, and I'm always looking for new adventures.",
+      "keywords": ["Mountain", "Nature", "Adventure"]
+    },
+    {
+      "name": "Running",
+      "summary": "I enjoy running and participating in 10K and 10K. I find it a great way to stay fit and challenge myself. I hope to run a marathon one day.",
+      "keywords": ["Running", "Fitness", "Marathon"]
+    }
+  ]
+}
