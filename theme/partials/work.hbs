@@ -1,75 +1,78 @@
 {{#if resume.work.length}}
-<section class="section">
-  <header>
-    <h2 class='section-title'>Work Experience <span class="item-count">({{resume.work.length}})</span></h2>
-  </header>
+  <section class="section">
+    <header>
+      <h2 class="section-title">Work Experience
+        <span class="item-count">({{resume.work.length}})</span></h2>
+    </header>
 
-  <section id="work">
-    {{#each resume.work}}
-    <section class="work-item">
-        {{#if summary}}
-        <label for="work-item-{{@index}}"></label>
-        {{/if}}
+    <section id="work">
+      {{#each resume.work}}
+        <section class="work-item">
+          {{#if summary}}
+            <label for="work-item-{{@index}}"></label>
+          {{/if}}
 
-        <header class="clear">
-          <div class="date">
-            {{#if startDate}}
-            <span class="startDate">{{MY startDate}}</span>
+          <header class="clear">
+            <div class="date">
+              {{#if startDate}}
+                <span class="startDate">{{MY startDate}}</span>
+              {{/if}}
+              {{#if endDate}}
+                <span class="endDate">- {{MY endDate}}</span>
+              {{else}}
+                <span class="endDate">- Current</span>
+              {{/if}}
+            </div>
+            {{#if position}}
+              <div class="position">{{position}}</div>
             {{/if}}
-            {{#if endDate}}
-            <span class="endDate">- {{MY endDate}}</span>
+            {{#if website}}
+              <span class="company">
+                <a target="_blank" href="{{website}}">{{company}}</a>
+              </span>
             {{else}}
-            <span class="endDate">- Current</span>
+              <div class="company">{{company}}</div>
+            {{/if}}
+          </header>
+
+          {{#location}}
+            <span class="location">
+              <span class="fas fa-map-marker-alt"></span>
+              {{#if city}}
+                <span class="city">{{city}}</span>
+              {{/if}}
+              {{#if region}}
+                <span class="region">{{region}}</span>
+              {{/if}}
+            </span>
+          {{/location}}
+          {{#if url}}
+            <span class="url">
+              <span class="fas fa-external-link-alt"></span>
+              <a target="_blank" href="{{url}}">{{url}}</a>
+            </span>
+          {{/if}}
+          {{#if keywords.length}}
+            <ul class="keywords">
+              {{#each keywords as |keyword|}}
+                <li>{{keyword}}</li>
+              {{/each}}
+            </ul>
+          {{/if}}
+          <div class="item" id="work-item">
+            {{#if summary}}
+              <div class="summary">{{paragraphSplit summary}}</div>
+            {{/if}}
+            {{#if highlights.length}}
+              <ul class="highlights">
+                {{#each highlights as |highlight|}}
+                  <li>{{paragraphSplit highlight}}</li>
+                {{/each}}
+              </ul>
             {{/if}}
           </div>
-          {{#if position}}
-          <div class="position">{{position}}</div>
-          {{/if}}
-          {{#if website}}
-            <span class="company">
-              <a target="_blank" href="{{website}}">{{company}}</a>
-            </span>
-          {{else}}
-            <div class="company">{{company}}</div>
-          {{/if}}
-        </header>
-
-      {{#location}}
-      <span class="location">
-        <span class="fas fa-map-marker-alt"></span>
-        {{#if city}}
-        <span class="city">{{city}}</span>
-        {{/if}}
-        {{#if region}}
-        <span class="region">{{region}}</span>
-        {{/if}}
-      </span>
-      {{/location}}
-      {{#if url}}
-      <span class="url">
-        <span class="fas fa-external-link-alt"></span>
-        <a target="_blank" href="{{url}}">{{url}}</a>
-      </span> {{/if}} {{#if keywords.length}}
-      <ul class="keywords">
-        {{#each keywords}}
-        <li>{{.}}</li>
-        {{/each}}
-      </ul>
-      {{/if}}
-      <div class="item" id="work-item">
-        {{#if summary}}
-        <div class="summary">{{paragraphSplit summary}}</div>
-        {{/if}}
-        {{#if highlights.length}}
-        <ul class="highlights">
-          {{#each highlights}}
-          <li>{{paragraphSplit .}}</li>
-          {{/each}}
-        </ul>
-        {{/if}}
-      </div>
+        </section>
+      {{/each}}
     </section>
-    {{/each}}
   </section>
-</section>
 {{/if}}
